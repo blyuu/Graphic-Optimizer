@@ -38,7 +38,7 @@
 | **적용 / 프리셋 저장** | 선택한 조합을 PIE에 임시 적용하거나, 프로젝트 로컬 프리셋(.ini)으로 저장·재적용. 게임 인스턴스 서브시스템 API로 패키지 빌드에서도 저장/로드 가능 |
 | **리포트 히스토리** | 완료/중단된 모든 실험이 `Saved/GraphicsOptimizer/ReportHistory/`에 자동 축적, 프로젝트 누적 리포트 복사 지원 |
 
-전체 상세 동작(각 패널 버튼, 캡·프레임 상한 처리, 렌더 스레드 타이밍 구분 등)은 [`Plugins/GraphicsOptimizer/README.md`](Plugins/GraphicsOptimizer/README.md)에 있습니다.
+전체 상세 동작(각 패널 버튼, 캡·프레임 상한 처리, 렌더 스레드 타이밍 구분 등)은 [`Plugins/GraphicsOptimizer/GUIDE.md`](Plugins/GraphicsOptimizer/GUIDE.md)(한국어)에 있습니다.
 
 ---
 
@@ -80,7 +80,7 @@ Graphic-Optimizer/
 │  │  └─ GraphicsOptimizerEditor/   에디터 패널 UI (Editor 모듈)
 │  ├─ EnginePatches/UE5.5/          엔진 헤더 관련 보조/패치 참고 자료
 │  ├─ Docs/BenchmarkResults/        실행 리포트 아카이브 (git 추적 대상 아님)
-│  └─ README.md                    플러그인 상세 사용 설명서
+│  └─ GUIDE.md / GUIDE.en.md        플러그인 상세 사용 설명서 (한국어/영어)
 ├─ Config/                          프로젝트 설정
 └─ Content/                         테스트용 콘텐츠 (에셋)
 ```
