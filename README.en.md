@@ -38,7 +38,7 @@ Instead of hand-tuning Scalability settings to hit a target FPS, this runtime/ed
 | **Apply / save preset** | Apply the selected combination temporarily to PIE, or save/reload it as a project-local `.ini` preset; a game-instance subsystem API also supports save/load in packaged builds |
 | **Report history** | Every completed or interrupted study is archived under `Saved/GraphicsOptimizer/ReportHistory/`, with project-wide accumulated report copying |
 
-For the full behavioral reference (every panel button, frame-cap handling, render-thread timing caveats, etc.), see [`Plugins/GraphicsOptimizer/README.md`](Plugins/GraphicsOptimizer/README.md).
+For the full behavioral reference (every panel button, frame-cap handling, render-thread timing caveats, etc.), see [`Plugins/GraphicsOptimizer/GUIDE.en.md`](Plugins/GraphicsOptimizer/GUIDE.en.md).
 
 ---
 
@@ -80,7 +80,7 @@ Graphic-Optimizer/
 │  │  └─ GraphicsOptimizerEditor/   Editor panel UI (Editor module)
 │  ├─ EnginePatches/UE5.5/          Reference notes for engine-header related fixes
 │  ├─ Docs/BenchmarkResults/        Archived run reports (not tracked by git)
-│  └─ README.md                    Detailed plugin usage reference
+│  └─ GUIDE.en.md / GUIDE.md        Detailed plugin usage reference (EN/KO)
 ├─ Config/                          Project settings
 └─ Content/                         Test content (assets)
 ```
